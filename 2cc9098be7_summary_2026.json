@@ -1,73 +1,229 @@
 {
-  "period": "2026-09-12 .. 2026-09-17",
-  "days": 6,
-  "n_lines": 9,
-  "n_otp": 1,
-  "n_failed": 1,
-  "n_txns": 6,
-  "n_debits": 4,
+  "period": "2026-01-12 .. 2026-09-27",
+  "days": 259,
+  "n_lines": 598,
+  "n_otp": 0,
+  "n_failed": 21,
+  "n_txns": 577,
+  "n_debits": 569,
   "n_credits": 1,
-  "n_refunds": 1,
-  "total_debits": 1330.0,
-  "total_refunds": 40.0,
-  "net_out": 1290.0,
-  "cash_out": 250.0,
-  "card_out": 1040.0,
-  "total_credits": 10000.0,
-  "net_flow": 8710.0,
-  "opening": 5000.0,
-  "closing_calc": 13710.0,
-  "closing_reported": 13710.0,
-  "drift": 0.0,
-  "avg_daily_out": 215.0,
-  "avg_monthly_out": 6544.6,
+  "n_refunds": 7,
+  "total_debits": 135469.29,
+  "total_refunds": 710.85,
+  "net_out": 134758.44,
+  "cash_out": 49500.0,
+  "card_out": 85258.44,
+  "total_credits": 5400.0,
+  "net_flow": -129358.44,
+  "opening": null,
+  "closing_calc": null,
+  "closing_reported": null,
+  "drift": null,
+  "avg_daily_out": 520.3,
+  "avg_monthly_out": 15838.02,
   "monthly": {
+    "2026-01": {
+      "debit": 6386.14,
+      "credit": 0.0,
+      "refund": 0.0,
+      "n": 20
+    },
+    "2026-02": {
+      "debit": 13010.86,
+      "credit": 0.0,
+      "refund": 0.0,
+      "n": 27
+    },
+    "2026-03": {
+      "debit": 11144.16,
+      "credit": 0.0,
+      "refund": 0.0,
+      "n": 31
+    },
+    "2026-04": {
+      "debit": 13283.18,
+      "credit": 0.0,
+      "refund": 0.0,
+      "n": 54
+    },
+    "2026-05": {
+      "debit": 24753.1,
+      "credit": 0.0,
+      "refund": 0.0,
+      "n": 84
+    },
+    "2026-06": {
+      "debit": 12344.48,
+      "credit": 0.0,
+      "refund": 292.4,
+      "n": 97
+    },
+    "2026-07": {
+      "debit": 15965.46,
+      "credit": 0.0,
+      "refund": 0.0,
+      "n": 85
+    },
+    "2026-08": {
+      "debit": 21439.85,
+      "credit": 0.0,
+      "refund": 384.3,
+      "n": 102
+    },
     "2026-09": {
-      "debit": 1330.0,
-      "credit": 10000.0,
-      "refund": 40.0,
-      "n": 6
+      "debit": 17142.06,
+      "credit": 5400.0,
+      "refund": 34.15,
+      "n": 77
     }
   },
   "categories": {
-    "موبايل وإنترنت": {
-      "amount": 600.0,
-      "n": 1
+    "سحب نقدي (ATM)": {
+      "amount": 49500.0,
+      "n": 35
     },
     "مطاعم وتوصيل": {
-      "amount": 300.0,
+      "amount": 44405.45,
+      "n": 374
+    },
+    "أخرى (غير مصنف)": {
+      "amount": 12818.7,
+      "n": 63
+    },
+    "موبايل وإنترنت": {
+      "amount": 10784.0,
+      "n": 30
+    },
+    "كافيهات وترفيه": {
+      "amount": 4695.4,
+      "n": 26
+    },
+    "مشتريات ومحلات": {
+      "amount": 4463.03,
+      "n": 10
+    },
+    "مدفوعات وتحويلات": {
+      "amount": 4324.56,
+      "n": 21
+    },
+    "بقالة وسوبر ماركت": {
+      "amount": 2933.9,
+      "n": 7
+    },
+    "صحة وصيدليات": {
+      "amount": 850.0,
       "n": 1
     },
-    "سحب نقدي (ATM)": {
-      "amount": 250.0,
-      "n": 1
-    },
-    "بنزين ووقود": {
-      "amount": 180.0,
-      "n": 1
+    "تسوق أونلاين": {
+      "amount": 694.25,
+      "n": 2
     }
   },
   "top_merchants": {
-    "VODAFONE": {
-      "amount": 600.0,
+    "Talabat": {
+      "amount": 24044.43,
+      "n": 83
+    },
+    "DiDi": {
+      "amount": 7954.77,
+      "n": 55
+    },
+    "ATM BM ARBELA": {
+      "amount": 6000.0,
+      "n": 3
+    },
+    "ATM BM SEVEN H": {
+      "amount": 4200.0,
+      "n": 5
+    },
+    "Vodafone T": {
+      "amount": 4081.0,
+      "n": 19
+    },
+    "Didi Mobility Egypt": {
+      "amount": 4014.2,
+      "n": 100
+    },
+    "ATM NBE ATM988": {
+      "amount": 4000.0,
       "n": 1
     },
-    "TALABAT": {
-      "amount": 300.0,
+    "Didi Mobil": {
+      "amount": 3950.86,
+      "n": 117
+    },
+    "We Bus Egy": {
+      "amount": 3650.0,
+      "n": 4
+    },
+    "ATM AWBE": {
+      "amount": 3000.0,
       "n": 1
     },
-    "ATM - MAADI": {
-      "amount": 250.0,
+    "ATM BM WE OMAR": {
+      "amount": 3000.0,
       "n": 1
     },
-    "OLA ENERGY": {
-      "amount": 180.0,
+    "ATM NBE ATM248": {
+      "amount": 3000.0,
       "n": 1
+    },
+    "ATM BM DAR EL": {
+      "amount": 3000.0,
+      "n": 1
+    },
+    "ELFAR HD 7": {
+      "amount": 2172.15,
+      "n": 11
+    },
+    "MONOUFIYA": {
+      "amount": 2077.0,
+      "n": 1
+    },
+    "Vodafone Top Up APP": {
+      "amount": 2002.0,
+      "n": 4
+    },
+    "ATM CIB MOBILE EL NARGS": {
+      "amount": 2000.0,
+      "n": 1
+    },
+    "ATM BM NEW BEK": {
+      "amount": 2000.0,
+      "n": 1
+    },
+    "ATM SHEPHERD A": {
+      "amount": 2000.0,
+      "n": 1
+    },
+    "ATM - WATER COMPANY KOZZIK": {
+      "amount": 2000.0,
+      "n": 1
+    },
+    "GOMLA MARK": {
+      "amount": 1914.7,
+      "n": 2
+    },
+    "MAHMOUD EL FAR ARABELL": {
+      "amount": 1535.73,
+      "n": 4
+    },
+    "ATM CIB MOSADAK I": {
+      "amount": 1500.0,
+      "n": 2
+    },
+    "NEW PENNI": {
+      "amount": 1273.45,
+      "n": 2
+    },
+    "DOZO CAFFE-dokki": {
+      "amount": 1269.99,
+      "n": 8
     }
   },
   "senders": {
-    "شركة النيل": {
-      "amount": 10000.0,
+    "ايداع CIB MOSADAK IMOSADAK I": {
+      "amount": 5400.0,
       "n": 1
     }
   },
